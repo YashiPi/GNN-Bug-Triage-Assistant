@@ -1,0 +1,101 @@
+bug_id,title,reporter_username,fixer_username
+276573,Resumed Copilot CLI Chat session information does not get saved,DonJayamanne,DonJayamanne
+276548,runSubagent creates recursive subagents,roblourens,roblourens
+276407,Terminal suggest: options/flags marked as `isPersistent` are not shown at all,JeffreyCA,meganrogge
+276406,Terminal suggest: symlinks are not grouped together with regular files/folders,JeffreyCA,meganrogge
+276305,runSubagent uses a premium request,roblourens,roblourens
+276253,Code incorrectly assumes `wsl.exe` outputs UTF-16LE when the `WSL_UTF8` environment variable is set,integerbang,Tyriar
+276246,Chat: sign-out/sign-in flow very broken,bpasero,bpasero
+276169,Show 'upgrade auth' button in the agents welcome view when we don't have the big token,joshspicer,TylerLeonhardt
+276167,CLI session permission failure,rebornix,mjbvz
+276165,cloud agent: handle the 'rejection' for authPermissionPrompted prompt,joshspicer,TylerLeonhardt
+276132,'No activated agent' for cloud/cli agents,joshspicer,joshspicer
+276119,Agent Sessions - icons not centered in the item description,lszomoru,bpasero
+276058,Fix chat-lib build,chrmarti,chrmarti
+276035,No more model picker in line chat,jrieken,jrieken
+276029,Tool input validation broken,jrieken,connor4312
+275957,Infinite loop with UI flicker when delegating to Copilot CLI Agent,andrewbranch,mjbvz
+275937,Add command to open memory folder for memory tool,bhavyaus,bhavyaus
+275889,Auto approve setting docs is wrong about inline commands,Tyriar,Tyriar
+275859,ReferenceError: Cannot access 'cleanup' before initialization,jrieken,jrieken
+275828,Allow dropdown is empty when auto approve is blocked due to file redirection,Tyriar,Tyriar
+275818,Disable agent/command detection for inline chat,jrieken,jrieken
+275810,Seeing error in dev console: Cannot read properties of undefined (reading 'selectedCategory'),ulugbekna,bhavyaus
+275789,Chat terminals amount represents all visible and hidden terminals,Tyriar,meganrogge
+275723,Cannot attach untitled file to a cloud agent session,kieferrm,joshspicer
+276458,Comments fail to re-expand after collapse in outdated/specific-commit-version files,catskul,alexr00
+275692,Copilot Chat is always contributing a `GH_TOKEN` env var which is making `gh` CLI break,TylerLeonhardt,DonJayamanne
+275690,height cutoff in terminal output,meganrogge,meganrogge
+275682,Remove unnecessary reference to Codicon icons from Copilot Completion Panel,dbaeumer,dbaeumer
+275675,`ModelService: Cannot add model because it already exists!` error in chat window when agent attempts parallel tool executions,bwateratmsft,connor4312
+275674,Copilot Usage does not show correct stats,isidorn,sandy081
+275673,Align with CCA & Copilot CLI on custom agents,TylerLeonhardt,TylerLeonhardt
+275667,Attempts to activate Python environment in task terminal,roblourens,Tyriar
+275651,Setting `accessibility.openChatEditedFiles` to `false` does not prevent new files from opening,bpasero,meganrogge
+275641,Copilot Cloud Agent Delegation does not work if the user hasn't auth'd to the big scopes,TylerLeonhardt,joshspicer
+275631,failed to install copilot cli in integrated terminal,amunger,amunger
+275624,Review code feedback doesn't seem to use the suggested changes from CCR,digitarald,chrmarti
+275614,two terminal suggest entries are showing for `terminal.integrated.suggest.providers`,meganrogge,meganrogge
+275605,"Copilot Agent blocked by ""Press any key to continue ..."" - Loss of autonomous capabilities",Barrixar,meganrogge
+275592,Dragging a terminal tab to the bottom of tab list no longer works,Tyriar,meganrogge
+275578,Auto not properly set as default model,isidorn,lramos15
+275557,Terminal Completion API: Document the default value of `TerminalCompletionItem.kind`,joaomoreno,meganrogge
+275556,Terminal Completion API: Should T in TerminalCompletionProvider default to TerminalCompletionItem?,joaomoreno,meganrogge
+275555,Terminal Completion API: No spacing between label and detail,joaomoreno,meganrogge
+275549,Terminal Completion API: Should simplify replacement range?,joaomoreno,meganrogge
+275548,Terminal Completion API: TerminalCompletionContext lacks documented flag,joaomoreno,meganrogge
+275546,Terminal Completion API: TerminalCompletionContext doesn't contain full line,joaomoreno,meganrogge
+275521,Copilot Workspace recording doesn't include the source,hediet,hediet
+275511,Chat hangs if not signed in into GitHub,dbaeumer,roblourens
+275478,MCP related actions need to hide when AI features are disabled,bpasero,sandy081
+275460,CLI sessions bleed into local chat history,rebornix,mjbvz
+275443,"Inconsistent/inaccurate naming of Copilot ""Configure Inline Suggestions..."" quickpick menu",jruales,benibenj
+275440,Codex: `+` unexpectedly behaves like a dropdown,bamurtaugh,mjbvz
+275437,Using memory appears to always be rendered twice,lramos15,bhavyaus
+275435,Memory tool should only be applied to sonnet models which enable it,lramos15,bhavyaus
+275424,Copilot CLI: Pending Edit Session after session ends,rebornix,rebornix
+275399,"""Try again"" maybe doesn't work with thinking?",roblourens,bhavyaus
+275394,`target` codicon doesn't feel right for 'checked out',joshspicer,mrleemurray
+275388,`chatTerminalToolProgressPart.ts` —  Trying to add a disposable to a DisposableStore,mjbvz,meganrogge
+275385,Missing icons from `kind`,joshspicer,meganrogge
+275382,/savePrompt often refuses to create prompts in ask mode,mjbvz,aeschli
+275363,`/savePrompt` with no conversation history invented a topic,mjbvz,aeschli
+275361,"Chat terminal widget - ""Show Output"" disappears and expanded/collapsed state stuck after closing terminal",jruales,meganrogge
+275351,Chat context custom hover blocks chat list view scrolling,rebornix,Tyriar
+275340,Searching for a hidden advanced setting is case sensitive,sbatten,sandy081
+275337,Multi-select in settings editor filters doesn't make sense,sbatten,sandy081
+275335,in-workspace file write blocked for being outside of workspace,amunger,Tyriar
+275330,[Nitpick] Add copy button to hover messages: Accessibility Improvements,pwang347,benvillalobos
+275326,[Nitpick] Add copy button to hover messages: Cursor hover style should use `cursor: pointer;`,pwang347,benvillalobos
+275323,Agent sessions single view: checkout PR fails,osortega,osortega
+275321,[Nitpick] Go To Line command: Recommended Text Updates,pwang347,dmitrivMS
+275320,Agent sessions single view: clicking on PR number opens session and PR description,osortega,bpasero
+275304,"Thinking comes in, but completed thinking can't be expanded to see full thinking?",TylerLeonhardt,bhavyaus
+275279,Chat terminal count doesn't refresh automatically for chat editors,mjbvz,meganrogge
+275264,Show focus terminal action as soon as command executes,meganrogge,meganrogge
+275258,Extension info can be selected as context but is invalid,kycutler,benvillalobos
+275250,Inline Chat: Unexpected Undo keybinding behavior,bamurtaugh,jrieken
+275245,Agent Sessions single view: description row font,rebornix,bpasero
+275240,Agent Sessions single view: new codex editor doesn't work,rebornix,bpasero
+275237,Agent Sessions single view: icons on the right make entries hard to visually scan,rebornix,bpasero
+275233,Chat approvals are not screen reader accessible,meganrogge,connor4312
+275227,There should be a reset tool approvals action in the picker,meganrogge,connor4312
+275226,Cloud agent hangs when 'half' signed into copilot,joshspicer,joshspicer
+275214,Inline Chat: `Continue in Chat` didn't bring prompt into panel,bamurtaugh,bhavyaus
+275211,Inline chat: Phrasing of modal when moving to panel chat,bamurtaugh,jrieken
+275208,Wrong prompt used for Sonnet 4.5 in BYOK,roblourens,bhavyaus
+275199,"incorrect agent in "".md"" shows no warning",eleanorjboyd,aeschli
+275179,"""Thinking"" on Sonnet 3.7 does not appear to stream in",connor4312,bhavyaus
+275177,"Gettting error ""Cannot read properties of undefined (reading 'bind')"" when using CoPilot",mel-habip,roblourens
+275173,Input has very bright background on other themes,Tyriar,jrieken
+275160,Unclear what the add models button does,lramos15,sandy081
+275162,Open PR from external link: Does not find folder of recently opened repo,aeschli,alexr00
+275141,"When two terminal commands are attached, clicking on chat pill does not switch to second terminal",aiday-mar,meganrogge
+275140,attach to chat sometimes does not work,meganrogge,meganrogge
+275135,Selection mode options sometimes do not show,aiday-mar,lszomoru
+275752,Copilot Chat extension is missing `dist/suggestionsPanelWebview.js`,dbaeumer,dbaeumer
+275115,Model hover has bottom padding,Tyriar,Tyriar
+275110,"Path to save at is guessed incorrectly when using ""Create: New File..."" command and picking jupyter notebook",ulugbekna,amunger
+275099,Cannot press `Escape` to close this suggest widget,bpasero,sandy081
+275092,Rename manage models editor,bpasero,sandy081
+275089,SCM Graph not refreshing - TypeError: Cannot read properties of undefined (reading 'inputSwimlanes'),gjsjohnmurray,lszomoru
